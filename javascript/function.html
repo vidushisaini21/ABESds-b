@@ -1,29 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <style>
+        #adi{
+            border: 5px solid black;
+            height: 200px;
+            width: 200px;
+            background-color: aquamarine;
+
+
+        }
+    </style>
 
 </head>
 <body>
+
+    <div id="adi">
+        <button onclick="abes()">CLICK</button>
+        <p id="aaa"></p>
+    </div>
     <script>
-        function abes()
-        {
-            document.write("python program");
+
+        function abes(){
+           
+           document.getElementById("aaa").innerHTML="<h1> HELLO </h1>";
         }
-        abes();
-        function add(){
-            var x = 2;
-            var y = 4;
-            var sum = x+y;
-            document.write("  sum = "+ sum);
-        }
-        function sub(){
-            var x = 2;
-            var y = 4;
-            var diff = x-y;
-            document.write(" diffrence =  "+ diff);
-        }
-        add();
-        sub();
+
+
+        // function abes()
+        // {
+        //     document.write("python program");
+        // }
+        // abes();
+        // function add(){
+        //     var x = 2;
+        //     var y = 4;
+        //     var sum = x+y;
+        //     document.write("  sum = "+ sum);
+        // }
+        // function sub(){
+        //     var x = 2;
+        //     var y = 4;
+        //     var diff = x-y;
+        //     document.write(" diffrence =  "+ diff);
+        // }
+        // add();
+        // sub();
 
     </script>
 </body>
