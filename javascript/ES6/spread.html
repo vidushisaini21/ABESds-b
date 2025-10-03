@@ -6,10 +6,27 @@
 <body>
     
     <script>
-        const a1 = [1,2,3,4];
-        const a2 = [2,4,6,9];
-        const r =[...a1, ...a2];
-        document.write(r);
+        const college={
+            collegename: "ABES",
+            collegecode: "032",
+            collegelocation: "GZB"
+        }
+        const student={
+            studentname:"Vidushi",
+            studentrollno: 123,
+            studentclass: "B.tech"
+        }
+
+        const y = {...student, ...college}
+        document.write(y);
+
+
+        // const a1 = [1,2,3,4];
+        // const a2 = [2,4,6,9];
+        // const r =[...a1, ...a2];
+        // document.write(r);
+
+
     </script>
 </body>
 </html>
