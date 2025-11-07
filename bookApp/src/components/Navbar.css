@@ -1,0 +1,20 @@
+#contain{
+    height: 100px;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+#div{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+#div:hover{
+    background-color: red;
+    transition: 0.8s;
+    cursor: pointer;
+}

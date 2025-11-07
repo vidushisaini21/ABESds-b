@@ -1,4 +1,16 @@
+*{
+  padding: 0;
+  margin: 0;
+}
 #container{
   display: flex;
-  justify-content: space-between;
+  height: 500px;
+  width: 100%;
+  justify-content:space-around;
+  align-items: center;
+
+}
+#rt{
+  display: flex;
+  flex-direction: column;
 }
